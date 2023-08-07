@@ -7,4 +7,4 @@ Contents
 
 .. toctree::
 
-   Test
+   DDRPAUserGuideTest
