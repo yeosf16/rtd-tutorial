@@ -157,6 +157,9 @@ Actions
 Web
 ~~~
 
+These actions are used to perform web actions such as clicking a web
+element and accessing a website.
+
 Browser Back
 ^^^^^^^^^^^^
 
@@ -179,7 +182,7 @@ Click By XPath
 Function: Click on a web element using XPath
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Click Type          | Choose left click, right click, or double      |
 |                     | click.                                         |
@@ -195,7 +198,7 @@ Click Web Element
 Function: Click on a web element.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Element             | Choose the correct Child, Child & Grandchild   |
 |                     | for the xPath.                                 |
@@ -218,7 +221,7 @@ Double Click Web Element
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Element             | Choose the correct Child, Child & Grandchild   |
 |                     | for the xPath.                                 |
@@ -242,7 +245,7 @@ Function: Declare the path to store downloaded files instead of the
 default download folder
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Folder Location     | To put your folder location that you want the  |
 |                     | file to download to.                           |
@@ -256,7 +259,7 @@ Email
 Function: Send an email using outlook website
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | To                  | The receiver of the email.                     |
 +---------------------+------------------------------------------------+
@@ -276,7 +279,7 @@ Read web Element
 Function: To read the text of the web element.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Element             | Choose the correct Child, Child & Grandchild   |
 |                     | for the xPath.                                 |
@@ -301,7 +304,7 @@ Read Xpath
 Function: Read the text on specific XPATH
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | XPATH               | The XPath of the element.                      |
 +---------------------+------------------------------------------------+
@@ -324,7 +327,7 @@ Save Table
 Function: Save the html table data to csv file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Table XPATH         | The XPath of the html table.                   |
 +---------------------+------------------------------------------------+
@@ -339,7 +342,7 @@ Set Web Wait Timeout
 Function: Set the wait timeout for the website
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Second to wait      | The number of seconds to wait before timeout.  |
 +---------------------+------------------------------------------------+
@@ -352,7 +355,7 @@ Type On Element
 Function: To type text on a web element
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Element Name        | The name of the element to be typed on.        |
 +---------------------+------------------------------------------------+
@@ -369,7 +372,7 @@ Type Web Element
 Function: To type text on a web element
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Element             | Choose the correct Child, Child & Grandchild   |
 |                     | for the xPath.                                 |
@@ -394,7 +397,7 @@ Upload To
 Function: Upload file to the web
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | DOM of upload       | The DOM of the upload element in the website.  |
 | element             |                                                |
@@ -412,7 +415,7 @@ Web
 Function: Open a website
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | URL                 | The url of the website to be opened.           |
 +---------------------+------------------------------------------------+
@@ -425,7 +428,7 @@ Web API
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Login URL           |                                                |
 +---------------------+------------------------------------------------+
@@ -452,7 +455,7 @@ Function: To bring an opened window to the front and set focus on the
 window
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Window Name         | The name of the window to be focused on.       |
 +---------------------+------------------------------------------------+
@@ -465,7 +468,7 @@ Click UI
 Function: Click the UI at specific location
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Click Type          | Select whether to left click, right click or   |
 |                     | double-click.                                  |
@@ -483,7 +486,7 @@ Click UI By Image
 Function: Click the UI based on image
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Click Type          | Select whether to left click, right click or   |
 |                     | double-click.                                  |
@@ -506,7 +509,7 @@ Hover UI
 Function: Hover the mouse over the UI at a specific location
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | X coordinate        | X coordinate of the target on screen.          |
 +---------------------+------------------------------------------------+
@@ -521,7 +524,7 @@ Hover UI By Image
 Function: Hover the mouse over the UI based on image
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Image               | The image of the UI to be hover over.          |
 +---------------------+------------------------------------------------+
@@ -534,7 +537,7 @@ Keyboard
 Function: Input of keyboard special key.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Keys                | A selection of special keystroke such as       |
 |                     | spacebar and alt.                              |
@@ -548,7 +551,7 @@ Keyboard Input
 Function: Input of text or combination of keystroke.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Input               | The text that will be typed.                   |
 +---------------------+------------------------------------------------+
@@ -561,7 +564,7 @@ Keyboard Type Input
 Function: To input a sentence
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Text                | The sentences of text to be input.             |
 +---------------------+------------------------------------------------+
@@ -574,7 +577,7 @@ OCR - Click
 Function: Using OCR to click on a string of text
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Click Type          | Select whether to left click, right click or   |
 |                     | double-click.                                  |
@@ -591,7 +594,7 @@ Open Application
 Function: To open an application in the computer
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Application Name    | The name of the application to be opened.      |
 +---------------------+------------------------------------------------+
@@ -604,7 +607,7 @@ Open File
 Function: To open a file of an application
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Application Name    | The name of the application.                   |
 +---------------------+------------------------------------------------+
@@ -619,7 +622,7 @@ Save File
 Function: To save the file
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | File Name           | The name of the saved file.                    |
 +---------------------+------------------------------------------------+
@@ -632,7 +635,7 @@ Set Focus
 Function: To modify an opened window
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Windows Name        | The name of the window.                        |
 +---------------------+------------------------------------------------+
@@ -658,7 +661,7 @@ Close Work Sheet
 Function: To close an opened worksheet
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel File          | The name of the excel file.                    |
 +---------------------+------------------------------------------------+
@@ -675,7 +678,7 @@ Copy Data
 Function: To copy a range of data from one excel sheet to another
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Source Excel        | The path of the source excel.                  |
 | Filename            |                                                |
@@ -702,7 +705,7 @@ Function: Copy the range of data from one excel sheet to another. (The
 file needs to be uploaded to the DD RPA workspace)
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Source File         | The name of the source file.                   |
 +---------------------+------------------------------------------------+
@@ -730,7 +733,7 @@ Function: Copy a range of data from one excel sheet to another. (Using
 the file path of the excel file that is located in the device)
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Source File         | The name of the source file .                  |
 +---------------------+------------------------------------------------+
@@ -757,7 +760,7 @@ Delete Excel Data
 Function: Delete data in an excel sheet
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | FileName            | The name of the excel file.                    |
 +---------------------+------------------------------------------------+
@@ -776,7 +779,7 @@ Open Excel
 Function: Open an excel file
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | File Path           | The file path of the excel file to be opened.  |
 +---------------------+------------------------------------------------+
@@ -789,7 +792,7 @@ Read Excel
 Function: To read a range of data into a data array
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -808,7 +811,7 @@ Read Excel Rows
 Function: Read a row of data into a variable
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Variable            | THe variable to store the data.                |
 +---------------------+------------------------------------------------+
@@ -829,7 +832,7 @@ Write Excel
 Function: To write a data array into an excel sheet
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel FIlename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -853,7 +856,7 @@ Function: This function is to add columns in the excel file. It will use
 the insert column function of excel.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -872,7 +875,7 @@ Add New Sheet
 Function: This function is to add a new sheet to an excel file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -888,7 +891,7 @@ Function: This function is to add rows in the excel file. It will use
 the insert row function of excel.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -908,7 +911,7 @@ Function: This function is to set the format for a range of cells in an
 excel file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel FIlename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -929,7 +932,7 @@ Clear Sheet
 Function: This function is to clear the cell in an excel sheet.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -948,7 +951,7 @@ Color Cell
 Function: This function is to color the cell in an excel file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -969,7 +972,7 @@ Delete Column
 Function: This function is to delete columns in the excel file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -988,7 +991,7 @@ Delete Row
 Function: This function is to delete rows in the excel file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -1007,7 +1010,7 @@ Delete Sheet
 Function: This function is to delete a sheet of an excel file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -1022,7 +1025,7 @@ Import Data By Column
 Function: Import entire column from one excel sheet to another
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Source Excel        | The file path of the source excel file.        |
 | Filename            |                                                |
@@ -1049,7 +1052,7 @@ Insert Formula
 Function: To insert formula to a row of cells
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -1073,7 +1076,7 @@ Merge Cell
 Function: To merge two or more cells together
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel FIlename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -1100,7 +1103,7 @@ Remove Duplicates
 Function: To remove all duplicates in the same column
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel Filename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -1119,7 +1122,7 @@ Rename Sheet
 Function: To rename an existing sheet
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel FIlename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -1136,7 +1139,7 @@ Write To Cell
 Function: To write data to a cell
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel FIlename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -1160,7 +1163,7 @@ Copy Move File
 Function: To copy or move a file
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Source File         | The file path of the source file.              |
 +---------------------+------------------------------------------------+
@@ -1180,7 +1183,7 @@ Delete File
 Function: To delete an existing file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | File Path           | The file path of the file to be deleted.       |
 +---------------------+------------------------------------------------+
@@ -1193,7 +1196,7 @@ Move Rename File
 Function: To rename or move the file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Source              | The file path of the source file.              |
 +---------------------+------------------------------------------------+
@@ -1208,7 +1211,7 @@ Read File
 Function: To read a file and store it in a variable
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Variable            | The variable to store the data.                |
 +---------------------+------------------------------------------------+
@@ -1223,7 +1226,7 @@ Read FIle To
 Function: To read a file and store it in a variable
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Filename            | The file path of the file to be read.          |
 +---------------------+------------------------------------------------+
@@ -1238,7 +1241,7 @@ Rename FIle
 Function: To rename a file
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Source File         | The file path of the source file.              |
 +---------------------+------------------------------------------------+
@@ -1256,7 +1259,7 @@ Write FIle
 Function: To write data to a file
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Path                | The file path of the file.                     |
 +---------------------+------------------------------------------------+
@@ -1271,7 +1274,7 @@ Write To File
 Function: To write data to a file
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Filename            | The file path of the file.                     |
 +---------------------+------------------------------------------------+
@@ -1299,7 +1302,7 @@ Copy Text
 Function: To copy text to the clipboard
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Text                | The text to be copied.                         |
 +---------------------+------------------------------------------------+
@@ -1319,7 +1322,7 @@ Run CMD
 Function: To run a cmd command
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Command             | The cmd command to be run.                     |
 +---------------------+------------------------------------------------+
@@ -1334,7 +1337,7 @@ Run JS
 Function: To run a JavaScript code
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Script              | The JavaScript code to be run.                 |
 +---------------------+------------------------------------------------+
@@ -1349,7 +1352,7 @@ Run Python
 Function: To run a Python code
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Script              | The Python code to be run.                     |
 +---------------------+------------------------------------------------+
@@ -1364,7 +1367,7 @@ Run R
 Function: To run a R code
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Script              | The R code to be run.                          |
 +---------------------+------------------------------------------------+
@@ -1379,7 +1382,7 @@ Run Sikuli
 Function: To run a Sikuli code
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Script              | The Sikuli code to be run.                     |
 +---------------------+------------------------------------------------+
@@ -1392,7 +1395,7 @@ Set Clipboard
 Function: To set a value to the clipboard
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Input               | The value to be set to clipboard               |
 +---------------------+------------------------------------------------+
@@ -1408,7 +1411,7 @@ API Basic
 Function: Call a web API and save the raw response.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | URL                 | URL of the API.                                |
 +---------------------+------------------------------------------------+
@@ -1423,7 +1426,7 @@ Custom Script
 Function: To make some custom script to run in the flow.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Script              | The custom script to be run.                   |
 +---------------------+------------------------------------------------+
@@ -1436,7 +1439,7 @@ For Loop
 Function: Used to repeat a specific action multiple times.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Data Array          | The data array to determine the loop count.    |
 +---------------------+------------------------------------------------+
@@ -1451,7 +1454,7 @@ Loop
 Function: To create a loop in the workflow
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Collection          | The number of loops.                           |
 +---------------------+------------------------------------------------+
@@ -1469,7 +1472,7 @@ Function: This action allows text extraction with the use of OCR.
 (Hand-written words would not be read by OCR)
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Image Filename      | The file path of the image.                    |
 +---------------------+------------------------------------------------+
@@ -1485,7 +1488,7 @@ Function:This action allows the user to read the screen content of a
 region
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Start Position      | The first coordinate on the screen.            |
 +---------------------+------------------------------------------------+
@@ -1502,7 +1505,7 @@ Outlook - Compose Email
 Function: To send an email using the outlook application
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Subject             | The subject of the email.                      |
 +---------------------+------------------------------------------------+
@@ -1527,7 +1530,7 @@ Function: This action is able to read a text file and store it with a
 variable.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Filepath            | The file path of the file.                     |
 +---------------------+------------------------------------------------+
@@ -1543,7 +1546,7 @@ Function: This action is able to set a value and store it into a
 variable for next use.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Variable Name       | The variable to store the value.               |
 +---------------------+------------------------------------------------+
@@ -1558,7 +1561,7 @@ Snap
 Function: This action is able to snap a whole screen as a picture.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | File Name           | The name of the file.                          |
 +---------------------+------------------------------------------------+
@@ -1571,7 +1574,7 @@ Split Text
 Function: This function can split the text with any character.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Text to split       | The text to be split                           |
 +---------------------+------------------------------------------------+
@@ -1588,7 +1591,7 @@ Substring
 Function: This function is to get the substring from a line of text.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Variable Name to    | The line of text.                              |
 | Sub String          |                                                |
@@ -1609,7 +1612,7 @@ Tesseract OCR
 Function: To use Tesseract OCR
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Filename (Image)    | The file path of the image.                    |
 +---------------------+------------------------------------------------+
@@ -1624,7 +1627,7 @@ Timestamp
 Function: This action is able to generate date and time.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Format              | The format of the timestamp.                   |
 +---------------------+------------------------------------------------+
@@ -1640,7 +1643,7 @@ Function: This action is able to protect the confidential data such as
 username and password from getting by others.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Username            | The username of Central account.               |
 +---------------------+------------------------------------------------+
@@ -1661,7 +1664,7 @@ Wait
 Function: To wait before going to the next action
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Time in seconds     | The seconds to wait.                           |
 +---------------------+------------------------------------------------+
@@ -1674,7 +1677,7 @@ Whatsapp DD (Not included in the download)
 Function: To use the WhatsApp API
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | URL                 | The URL of the WhatsApp API.                   |
 +---------------------+------------------------------------------------+
@@ -1694,7 +1697,7 @@ Print PDF - Excel
 Function: To print a cell range of an excel to PDF
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Excel FIlename      | The file path of the excel file.               |
 +---------------------+------------------------------------------------+
@@ -1713,7 +1716,7 @@ Print PDF - Word
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Word Filepath       | The file path of the Word file.                |
 +---------------------+------------------------------------------------+
@@ -1728,7 +1731,7 @@ Read PDF
 Function: Read the PDF
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Filepath            | The file path of the PDF file.                 |
 +---------------------+------------------------------------------------+
@@ -1749,7 +1752,7 @@ Echo
 Function: Echo text or variable that was set at previous action.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Text                | The variable which stores the data that need   |
 |                     | to be output to the log.                       |
@@ -1763,7 +1766,7 @@ Echo Text
 Function: Echo the text
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Text                | The string of text that need to be output to   |
 |                     | the log.                                       |
@@ -1790,7 +1793,7 @@ Insert Text
 Function: Insert text to Word file
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Text                | The string of text to be insert into the       |
 |                     | opened Word file                               |
@@ -1804,7 +1807,7 @@ Open Word
 Function: Open the Word file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | File Path           | The file path of the Word file.                |
 +---------------------+------------------------------------------------+
@@ -1817,7 +1820,7 @@ Read Text From Word
 Function: Read text inside the Word file.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Filepath            | File path of the Word file.                    |
 +---------------------+------------------------------------------------+
@@ -1830,7 +1833,7 @@ Replace String
 Function: Replace string inside the word.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Find What           | The string of text to be replaced.             |
 +---------------------+------------------------------------------------+
@@ -1852,7 +1855,7 @@ Save & Close
 Function: Save the document and close it.
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | File Path           | File path of the Word file.                    |
 +---------------------+------------------------------------------------+
@@ -1871,7 +1874,7 @@ Ifelse
 Function: If not then else
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Condition           | The condition for the if-else.                 |
 +---------------------+------------------------------------------------+
@@ -1887,7 +1890,7 @@ Select From Database
 Function: Select from database table
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Database Type       | Type of the database.                          |
 +---------------------+------------------------------------------------+
@@ -1915,7 +1918,7 @@ Capture Screen
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Path                |                                                |
 +---------------------+------------------------------------------------+
@@ -1928,7 +1931,7 @@ Connect
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | HostName            |                                                |
 +---------------------+------------------------------------------------+
@@ -1960,7 +1963,7 @@ Login
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | UserName            |                                                |
 +---------------------+------------------------------------------------+
@@ -1975,7 +1978,7 @@ Send Key
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Key                 |                                                |
 +---------------------+------------------------------------------------+
@@ -1988,7 +1991,7 @@ Send Text
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | InputText           |                                                |
 +---------------------+------------------------------------------------+
@@ -2001,7 +2004,7 @@ Terminal PUB400
 Function:
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Username            |                                                |
 +---------------------+------------------------------------------------+
@@ -2025,7 +2028,7 @@ Create List
 Function: To create a list of data
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | List Name           | The name of the list                           |
 +---------------------+------------------------------------------------+
@@ -2040,7 +2043,7 @@ Loop From To
 Function: To create a loop
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | From                |                                                |
 +---------------------+------------------------------------------------+
@@ -2057,7 +2060,7 @@ Loop Sub - Click On Element
 Function: Click on XPATH
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | Click Type          | Left click, right click or double click.       |
 +---------------------+------------------------------------------------+
@@ -2072,7 +2075,7 @@ Loop Sub - Type On Element
 Function: Type array to web element
 
 +---------------------+------------------------------------------------+
-| Parameter           | Description                                    |
+| **Parameter**       | **Description**                                |
 +---------------------+------------------------------------------------+
 | XPATH               | XPATH of the input bar.                        |
 +---------------------+------------------------------------------------+
@@ -2303,8 +2306,8 @@ page.
 | 1. | Add new access     | Add a new access group for different       |
 |    | group              | users.                                     |
 +----+--------------------+--------------------------------------------+
-| 2. | Edit               | Edit the name and description to specify   |
-|    |                    | different access groups.                   |
+| 2. | Edit               | Edit the name and **Description** to       |
+|    |                    | specify different access groups.           |
 +----+--------------------+--------------------------------------------+
 | 3. | Pages              | Assign different pages to different access |
 |    |                    | groups to let the users of the access      |
@@ -2347,8 +2350,8 @@ This page is to set a group to put a list of emails.\ |image139|
 |     |                   | button It will show you a list of emails  |
 |     |                   | that are inside a mailing list.           |
 +-----+-------------------+-------------------------------------------+
-| 3.  | Edit              | Edit the name and description to specify  |
-|     |                   | a different mailing list.                 |
+| 3.  | Edit              | Edit the name and **Description** to      |
+|     |                   | specify a different mailing list.         |
 +-----+-------------------+-------------------------------------------+
 | 4.  | Delete            | Delete the unwanted mailing list.         |
 +-----+-------------------+-------------------------------------------+
@@ -2370,7 +2373,7 @@ sent to.
 | 2. | Email       | This email will receive the error message if the |
 |    |             | job or task was failed.                          |
 +----+-------------+--------------------------------------------------+
-| 3. | Edit        | Edit the name, description and email.            |
+| 3. | Edit        | Edit the name, **Description** and email.        |
 +----+-------------+--------------------------------------------------+
 | 4. | Delete      | Delete the email you don't want the error        |
 |    |             | message to send to.                              |
