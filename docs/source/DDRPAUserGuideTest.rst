@@ -23,16 +23,12 @@ Create new project
 
    |image1|
 
-   *Image 1 Create New Project button*
-
 2. A new project will be created under the “Create New Project” button.
    Enter a name into the text field and press “enter”..
 
 ..
 
    |image2|
-
-   *Image 2 Newly created project*
 
 3. Click on the newly created project once to show its content. Hover
    the mouse over the project and click the “+” button that is on the
@@ -42,15 +38,11 @@ Create new project
 
    |image3|
 
-   *Image 3 “+” button*
-
 4. Enter the new folder’s name in the text field and press “enter”
 
 ..
 
    |image4|
-
-   *Image 4 Newly created folder*
 
 5. Click on the “New Workspace” button to create a new workspace.
 
@@ -58,14 +50,10 @@ Create new project
 
    |image5|
 
-   *Image 5 “New Workspace” button*
-
 Create workflow
 ---------------
 
 |image6|
-
-*Image 6 Workspace layout*
 
 +----+---------+------------------------------------------------------+
 | 1. | File    | File name that you are editing.                      |
@@ -118,8 +106,6 @@ Create workflow
 
    |image7|
 
-   *Image 7 Connected actions*
-
 2. Repeat the step 1 to 2 until all actions have been added to the
    workflow. Then connect the last action to the “Flow End” action.
 
@@ -131,16 +117,12 @@ Create workflow
 
    |image8|
 
-   *Image 8 Save button*
-
 4. To run the workflow, click the “run” button next to the “save”
    button.
 
 ..
 
    |image9|
-
-   *Image 9 Run button*
 
 5. To export the workflow, click the “export” button and it will be
    exported to a .ddp file.
@@ -2232,9 +2214,9 @@ This page is the page to schedule your jobs.
 |    |         | that shows your agent’s details.                      |
 +----+---------+-------------------------------------------------------+
 
-|image130|
+**More Pop up**
 
-More Pop up
+|image130|
 
 .. _section-2:
 
@@ -2258,17 +2240,20 @@ This page is all the users that are registered to the central.
 | . | Password       | password of the central.                        |
 +---+----------------+-------------------------------------------------+
 
+**
+**
+
+**Add New User Pop Up**
+
 |image132|
 
-Add New User Pop Up
+**Edit User Pop Up**
 
 |image133|
 
-Edit User Pop Up
+**Change Password Pop Up**
 
 |image134|
-
-Change Password Pop Up
 
 User Management > Roles
 -----------------------
@@ -2288,11 +2273,9 @@ This page is to create and edit user roles.
 | . |                    | access.                                    |
 +---+--------------------+--------------------------------------------+
 
+**Access Group Pop Up**
+
 |image136|
-
-Access Group Pop Up
-
-.. _section-4:
 
 User Management > Access Group
 ------------------------------
@@ -2356,7 +2339,7 @@ This page is to set a group to put a list of emails.\ |image139|
 | 4.  | Delete            | Delete the unwanted mailing list.         |
 +-----+-------------------+-------------------------------------------+
 
-.. _section-5:
+.. _section-4:
 
 Show Details
 ~~~~~~~~~~~~
@@ -2379,7 +2362,7 @@ sent to.
 |    |             | message to send to.                              |
 +----+-------------+--------------------------------------------------+
 
-.. _section-6:
+.. _section-5:
 
 Secret Vault
 ------------
@@ -2399,10 +2382,6 @@ action will get what secret set on this page.
 +----+------------------+----------------------------------------------+
 | 3. | Delete secret    | Delete the unwanted secret.                  |
 +----+------------------+----------------------------------------------+
-
-.. _section-7:
-
-.. _section-8:
 
 Reporting page
 --------------
@@ -2429,9 +2408,9 @@ This page is to generate reports of different parts.
 |     |         | Jobs reports.                                       |
 +-----+---------+-----------------------------------------------------+
 
-.. _section-9:
+.. _section-6:
 
-.. _section-10:
+.. _section-7:
 
 My License page
 ---------------
@@ -2444,10 +2423,6 @@ You are able to review the company name, license expiry date, tenant
 code and central version. Other than that, you are also able to review
 all the users license status.
 
-.. _section-11:
-
-.. _section-12:
-
 Bot
 ===
 
@@ -2458,8 +2433,6 @@ Bot
 
    |image144|
 
-   *Image 10 ddbot icon*
-
 2. Double click “RPAAgentManager.WorkerService.exe” which is located in
    the folder “C:\\DDRPA\\BOT\\app\\ddbotmanager\\”. A command prompt
    will appear, minimize it.
@@ -2469,8 +2442,6 @@ Bot
 ..
 
    |image145|
-
-   *Image 11 Bot status*
 
 Additional Functions
 --------------------
