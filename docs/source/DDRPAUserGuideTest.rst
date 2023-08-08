@@ -3,33 +3,34 @@ Workspace
 
 Run and open Workspace
 ----------------------
-
+|
 1. Go to the folder “vlatest” with the file path
    “C:\\DDRPA\\Workspace\\vlatest”.
-
+|
 2. Double click on the “RPADesigner.exe” to run it.
-
+|
 3. A command prompt will appear, minimize it.
-
+|
 4. Go to the Workspace website ( http://localhost:5000/fetch-project ).
-
+|
+|
 Create new project
 ------------------
-
+|
 1. Click on the “Create New Project” button located on the top left side
    of the website.
 
 ..
 
    |image1|
-
+|
 2. A new project will be created under the “Create New Project” button.
    Enter a name into the text field and press “enter”..
 
 ..
 
    |image2|
-
+|
 3. Click on the newly created project once to show its content. Hover
    the mouse over the project and click the “+” button that is on the
    right of the project name.
@@ -37,19 +38,19 @@ Create new project
 ..
 
    |image3|
-
+|
 4. Enter the new folder’s name in the text field and press “enter”
 
 ..
 
    |image4|
-
+|
 5. Click on the “New Workspace” button to create a new workspace.
 
 ..
 
    |image5|
-
+|
 Create workflow
 ---------------
 
@@ -105,10 +106,10 @@ Create workflow
 ..
 
    |image7|
-
+|
 2. Repeat the step 1 to 2 until all actions have been added to the
    workflow. Then connect the last action to the “Flow End” action.
-
+|
 3. Click the “save” button to save the workflow. If it is saved
    successfully, the run button and export button will become clickable
    and not grayed out.
@@ -116,23 +117,22 @@ Create workflow
 ..
 
    |image8|
-
+|
 4. To run the workflow, click the “run” button next to the “save”
    button.
 
 ..
 
    |image9|
-
+|
 5. To export the workflow, click the “export” button and it will be
    exported to a .ddp file.
 
 ..
 
    |image10|
-
-   *Image 10 Export button*
-
+|
+|
 Actions
 -------
 
@@ -141,21 +141,21 @@ Web
 
 These actions are used to perform web actions such as clicking a web
 element and accessing a website.
-
+|
 Browser Back
 ^^^^^^^^^^^^
 
 |image11|
 
 Function: Go to the previous browser page
-
+|
 Browser Forward
 ^^^^^^^^^^^^^^^
 
 |image12|
 
 Function: Go forward one browser page
-
+|
 Click By XPath
 ^^^^^^^^^^^^^^
 
@@ -171,7 +171,7 @@ Function: Click on a web element using XPath
 +---------------------+------------------------------------------------+
 | XPATH               | Put the xPath of the web element.              |
 +---------------------+------------------------------------------------+
-
+|
 Click Web Element
 ^^^^^^^^^^^^^^^^^
 
@@ -194,7 +194,7 @@ Function: Click on a web element.
 +---------------------+------------------------------------------------+
 | Nth Match Element   | Put the element after the element name.        |
 +---------------------+------------------------------------------------+
-
+|
 Double Click Web Element
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -217,7 +217,7 @@ Function:
 +---------------------+------------------------------------------------+
 | Nth Match Element   | Put the element after the element name.        |
 +---------------------+------------------------------------------------+
-
+|
 Download To
 ^^^^^^^^^^^
 
@@ -232,7 +232,7 @@ default download folder
 | Folder Location     | To put your folder location that you want the  |
 |                     | file to download to.                           |
 +---------------------+------------------------------------------------+
-
+|
 Email
 ^^^^^
 
@@ -252,7 +252,7 @@ Function: Send an email using outlook website
 +---------------------+------------------------------------------------+
 | Body                | The body of the email.                         |
 +---------------------+------------------------------------------------+
-
+|
 Read web Element
 ^^^^^^^^^^^^^^^^
 
@@ -277,7 +277,7 @@ Function: To read the text of the web element.
 +---------------------+------------------------------------------------+
 | Variable to store   | The variable that will store the text.         |
 +---------------------+------------------------------------------------+
-
+|
 Read Xpath
 ^^^^^^^^^^
 
@@ -292,7 +292,7 @@ Function: Read the text on specific XPATH
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the text.                |
 +---------------------+------------------------------------------------+
-
+|
 Refresh Web Page
 ^^^^^^^^^^^^^^^^
 
@@ -300,7 +300,7 @@ Refresh Web Page
 
 Function: To refresh the website, same as pressing the refresh function
 (F5)
-
+|
 Save Table
 ^^^^^^^^^^
 
@@ -315,7 +315,7 @@ Function: Save the html table data to csv file.
 +---------------------+------------------------------------------------+
 | CSV Filename        | The file path of the csv file.                 |
 +---------------------+------------------------------------------------+
-
+|
 Set Web Wait Timeout
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -328,7 +328,7 @@ Function: Set the wait timeout for the website
 +---------------------+------------------------------------------------+
 | Second to wait      | The number of seconds to wait before timeout.  |
 +---------------------+------------------------------------------------+
-
+|
 Type On Element
 ^^^^^^^^^^^^^^^
 
@@ -345,7 +345,7 @@ Function: To type text on a web element
 +---------------------+------------------------------------------------+
 | Followed by ENTER   | Should the text be followed by enter key.      |
 +---------------------+------------------------------------------------+
-
+|
 Type Web Element
 ^^^^^^^^^^^^^^^^
 
@@ -370,7 +370,7 @@ Function: To type text on a web element
 +---------------------+------------------------------------------------+
 | Text                | The text to be typed.                          |
 +---------------------+------------------------------------------------+
-
+|
 Upload To
 ^^^^^^^^^
 
@@ -388,7 +388,7 @@ Function: Upload file to the web
 +---------------------+------------------------------------------------+
 
 .. _web-1:
-
+|
 Web
 ^^^
 
@@ -401,7 +401,7 @@ Function: Open a website
 +---------------------+------------------------------------------------+
 | URL                 | The url of the website to be opened.           |
 +---------------------+------------------------------------------------+
-
+|
 Web API
 ^^^^^^^
 
@@ -424,10 +424,11 @@ Function:
 +---------------------+------------------------------------------------+
 | Output              |                                                |
 +---------------------+------------------------------------------------+
-
+|
+|
 Mouse & Keyboard
 ~~~~~~~~~~~~~~~~
-
+|
 Bring Focus (Not included in the download)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -441,7 +442,7 @@ window
 +---------------------+------------------------------------------------+
 | Window Name         | The name of the window to be focused on.       |
 +---------------------+------------------------------------------------+
-
+|
 Click UI
 ^^^^^^^^
 
@@ -459,7 +460,7 @@ Function: Click the UI at specific location
 +---------------------+------------------------------------------------+
 | Y coordinate        | Y coordinate of the target on screen.          |
 +---------------------+------------------------------------------------+
-
+|
 Click UI By Image
 ^^^^^^^^^^^^^^^^^
 
@@ -475,14 +476,14 @@ Function: Click the UI based on image
 +---------------------+------------------------------------------------+
 | Image               | The image of the UI to be clicked.             |
 +---------------------+------------------------------------------------+
-
+|
 Close Application
 ^^^^^^^^^^^^^^^^^
 
 |image31|
 
 Function: To close the current window
-
+|
 Hover UI
 ^^^^^^^^
 
@@ -497,7 +498,7 @@ Function: Hover the mouse over the UI at a specific location
 +---------------------+------------------------------------------------+
 | Y coordinate        | Y coordinate of the target on screen.          |
 +---------------------+------------------------------------------------+
-
+|
 Hover UI By Image
 ^^^^^^^^^^^^^^^^^
 
@@ -510,7 +511,7 @@ Function: Hover the mouse over the UI based on image
 +---------------------+------------------------------------------------+
 | Image               | The image of the UI to be hover over.          |
 +---------------------+------------------------------------------------+
-
+|
 Keyboard
 ^^^^^^^^
 
@@ -524,7 +525,7 @@ Function: Input of keyboard special key.
 | Keys                | A selection of special keystroke such as       |
 |                     | spacebar and alt.                              |
 +---------------------+------------------------------------------------+
-
+|
 Keyboard Input
 ^^^^^^^^^^^^^^
 
@@ -537,7 +538,7 @@ Function: Input of text or combination of keystroke.
 +---------------------+------------------------------------------------+
 | Input               | The text that will be typed.                   |
 +---------------------+------------------------------------------------+
-
+|
 Keyboard Type Input
 ^^^^^^^^^^^^^^^^^^^
 
@@ -550,7 +551,7 @@ Function: To input a sentence
 +---------------------+------------------------------------------------+
 | Text                | The sentences of text to be input.             |
 +---------------------+------------------------------------------------+
-
+|
 OCR - Click
 ^^^^^^^^^^^
 
@@ -567,7 +568,7 @@ Function: Using OCR to click on a string of text
 | Search String On    | The string of text to be searched for using    |
 | Screen              | OCR.                                           |
 +---------------------+------------------------------------------------+
-
+|
 Open Application
 ^^^^^^^^^^^^^^^^
 
@@ -580,7 +581,7 @@ Function: To open an application in the computer
 +---------------------+------------------------------------------------+
 | Application Name    | The name of the application to be opened.      |
 +---------------------+------------------------------------------------+
-
+|
 Open File
 ^^^^^^^^^
 
@@ -595,7 +596,7 @@ Function: To open a file of an application
 +---------------------+------------------------------------------------+
 | File Path           | The file path of the file.                     |
 +---------------------+------------------------------------------------+
-
+|
 Save File
 ^^^^^^^^^
 
@@ -608,7 +609,7 @@ Function: To save the file
 +---------------------+------------------------------------------------+
 | File Name           | The name of the saved file.                    |
 +---------------------+------------------------------------------------+
-
+|
 Set Focus
 ^^^^^^^^^
 
@@ -624,17 +625,18 @@ Function: To modify an opened window
 | Mode                | Choose to restore, maximize or minimize the    |
 |                     | window.                                        |
 +---------------------+------------------------------------------------+
-
+|
 Windows Run
 ^^^^^^^^^^^
 
 |image42|
 
 Function: To open the Run Window
-
+|
+|
 Excel Interop
 ~~~~~~~~~~~~~
-
+|
 Close Work Sheet
 ^^^^^^^^^^^^^^^^
 
@@ -651,7 +653,7 @@ Function: To close an opened worksheet
 +---------------------+------------------------------------------------+
 | Save                | An option to save or not save the worksheet.   |
 +---------------------+------------------------------------------------+
-
+|
 Copy Data
 ^^^^^^^^^
 
@@ -677,7 +679,7 @@ Function: To copy a range of data from one excel sheet to another
 | Starting Cell       | The first cell to start pasting the copied     |
 |                     | data.                                          |
 +---------------------+------------------------------------------------+
-
+|
 Copy Excel
 ^^^^^^^^^^
 
@@ -705,7 +707,7 @@ file needs to be uploaded to the DD RPA workspace)
 +---------------------+------------------------------------------------+
 | End Destination     | The ending cell to paste the data.             |
 +---------------------+------------------------------------------------+
-
+|
 Copy Excel Path
 ^^^^^^^^^^^^^^^
 
@@ -733,7 +735,7 @@ the file path of the excel file that is located in the device)
 +---------------------+------------------------------------------------+
 | End Destination     | The ending cell to paste the data.             |
 +---------------------+------------------------------------------------+
-
+|
 Delete Excel Data
 ^^^^^^^^^^^^^^^^^
 
@@ -752,7 +754,7 @@ Function: Delete data in an excel sheet
 +---------------------+------------------------------------------------+
 | End Row-Column      | The last cell of data.                         |
 +---------------------+------------------------------------------------+
-
+|
 Open Excel
 ^^^^^^^^^^
 
@@ -765,7 +767,7 @@ Function: Open an excel file
 +---------------------+------------------------------------------------+
 | File Path           | The file path of the excel file to be opened.  |
 +---------------------+------------------------------------------------+
-
+|
 Read Excel
 ^^^^^^^^^^
 
@@ -784,7 +786,7 @@ Function: To read a range of data into a data array
 +---------------------+------------------------------------------------+
 | Data Array          | The data array variable to store the data.     |
 +---------------------+------------------------------------------------+
-
+|
 Read Excel Rows
 ^^^^^^^^^^^^^^^
 
@@ -805,7 +807,7 @@ Function: Read a row of data into a variable
 +---------------------+------------------------------------------------+
 | End Column          | The last column of the data range.             |
 +---------------------+------------------------------------------------+
-
+|
 Write Excel
 ^^^^^^^^^^^
 
@@ -825,10 +827,11 @@ Function: To write a data array into an excel sheet
 | Data Array          | The data array that will be used to write into |
 |                     | the excel.                                     |
 +---------------------+------------------------------------------------+
-
+|
+|
 Excel
 ~~~~~
-
+|
 Add Column
 ^^^^^^^^^^
 
@@ -848,7 +851,7 @@ the insert column function of excel.
 +---------------------+------------------------------------------------+
 | Count               | The number of columns to be added.             |
 +---------------------+------------------------------------------------+
-
+|
 Add New Sheet
 ^^^^^^^^^^^^^
 
@@ -863,7 +866,7 @@ Function: This function is to add a new sheet to an excel file.
 +---------------------+------------------------------------------------+
 | Sheetname           | The name of the new sheet to be added.         |
 +---------------------+------------------------------------------------+
-
+|
 Add Row
 ^^^^^^^
 
@@ -883,7 +886,7 @@ the insert row function of excel.
 +---------------------+------------------------------------------------+
 | Count               | The number of rows to be added.                |
 +---------------------+------------------------------------------------+
-
+|
 Cell Format
 ^^^^^^^^^^^
 
@@ -905,7 +908,7 @@ excel file.
 +---------------------+------------------------------------------------+
 | Cell Format         | The format to be set for the cell range.       |
 +---------------------+------------------------------------------------+
-
+|
 Clear Sheet
 ^^^^^^^^^^^
 
@@ -924,7 +927,7 @@ Function: This function is to clear the cell in an excel sheet.
 +---------------------+------------------------------------------------+
 | Cell End            | The last cell of the cell range.               |
 +---------------------+------------------------------------------------+
-
+|
 Color Cell
 ^^^^^^^^^^
 
@@ -945,7 +948,7 @@ Function: This function is to color the cell in an excel file.
 +---------------------+------------------------------------------------+
 | Color               | The color to be set for the cell range.        |
 +---------------------+------------------------------------------------+
-
+|
 Delete Column
 ^^^^^^^^^^^^^
 
@@ -964,7 +967,7 @@ Function: This function is to delete columns in the excel file.
 +---------------------+------------------------------------------------+
 | Count               | The number of columns to be deleted.           |
 +---------------------+------------------------------------------------+
-
+|
 Delete Row
 ^^^^^^^^^^
 
@@ -983,7 +986,7 @@ Function: This function is to delete rows in the excel file.
 +---------------------+------------------------------------------------+
 | Count               | The number of rows to be deleted.              |
 +---------------------+------------------------------------------------+
-
+|
 Delete Sheet
 ^^^^^^^^^^^^
 
@@ -998,7 +1001,7 @@ Function: This function is to delete a sheet of an excel file.
 +---------------------+------------------------------------------------+
 | Sheetname           | The name of the excel sheet.                   |
 +---------------------+------------------------------------------------+
-
+|
 Import Data By Column
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -1025,7 +1028,7 @@ Function: Import entire column from one excel sheet to another
 +---------------------+------------------------------------------------+
 | Column              | The column to import the data.                 |
 +---------------------+------------------------------------------------+
-
+|
 Insert Formula
 ^^^^^^^^^^^^^^
 
@@ -1049,7 +1052,7 @@ Function: To insert formula to a row of cells
 | Formula             | The formula to be inserted into the cell       |
 |                     | range.                                         |
 +---------------------+------------------------------------------------+
-
+|
 Merge Cell
 ^^^^^^^^^^
 
@@ -1076,7 +1079,7 @@ Function: To merge two or more cells together
 +---------------------+------------------------------------------------+
 | Italic              | An option to make the text italic.             |
 +---------------------+------------------------------------------------+
-
+|
 Remove Duplicates
 ^^^^^^^^^^^^^^^^^
 
@@ -1095,7 +1098,7 @@ Function: To remove all duplicates in the same column
 +---------------------+------------------------------------------------+
 | Headers             | An option for if there is a header or not.     |
 +---------------------+------------------------------------------------+
-
+|
 Rename Sheet
 ^^^^^^^^^^^^
 
@@ -1112,7 +1115,7 @@ Function: To rename an existing sheet
 +---------------------+------------------------------------------------+
 | New Sheetname       | The new name of the excel sheet.               |
 +---------------------+------------------------------------------------+
-
+|
 Write To Cell
 ^^^^^^^^^^^^^
 
@@ -1133,10 +1136,11 @@ Function: To write data to a cell
 +---------------------+------------------------------------------------+
 | Type                | The type of the value.                         |
 +---------------------+------------------------------------------------+
-
+|
+|
 File/Saving
 ~~~~~~~~~~~
-
+|
 Copy Move File
 ^^^^^^^^^^^^^^
 
@@ -1156,7 +1160,7 @@ Function: To copy or move a file
 | Replace             | An option to replace the existing file in the  |
 |                     | destination path.                              |
 +---------------------+------------------------------------------------+
-
+|
 Delete File
 ^^^^^^^^^^^
 
@@ -1169,7 +1173,7 @@ Function: To delete an existing file.
 +---------------------+------------------------------------------------+
 | File Path           | The file path of the file to be deleted.       |
 +---------------------+------------------------------------------------+
-
+|
 Move Rename File
 ^^^^^^^^^^^^^^^^
 
@@ -1184,7 +1188,7 @@ Function: To rename or move the file.
 +---------------------+------------------------------------------------+
 | Destination         | The file path of the destination.              |
 +---------------------+------------------------------------------------+
-
+|
 Read File
 ^^^^^^^^^
 
@@ -1199,7 +1203,7 @@ Function: To read a file and store it in a variable
 +---------------------+------------------------------------------------+
 | Path                | The file path of the file to be read.          |
 +---------------------+------------------------------------------------+
-
+|
 Read FIle To
 ^^^^^^^^^^^^
 
@@ -1214,7 +1218,7 @@ Function: To read a file and store it in a variable
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the data.                |
 +---------------------+------------------------------------------------+
-
+|
 Rename FIle
 ^^^^^^^^^^^
 
@@ -1232,7 +1236,7 @@ Function: To rename a file
 | Replace             | An option to replace if another file with the  |
 |                     | same name exists.                              |
 +---------------------+------------------------------------------------+
-
+|
 Write FIle
 ^^^^^^^^^^
 
@@ -1247,7 +1251,7 @@ Function: To write data to a file
 +---------------------+------------------------------------------------+
 | Content             | The data to be written to the file.            |
 +---------------------+------------------------------------------------+
-
+|
 Write To File
 ^^^^^^^^^^^^^
 
@@ -1265,17 +1269,18 @@ Function: To write data to a file
 | Option              | An option to append or replace the data inside |
 |                     | the file.                                      |
 +---------------------+------------------------------------------------+
-
+|
+|
 Helper Function
 ~~~~~~~~~~~~~~~
-
+|
 Close Window
 ^^^^^^^^^^^^
 
 |image75|
 
 Function: To close the currently opened window
-
+|
 Copy Text
 ^^^^^^^^^
 
@@ -1288,14 +1293,14 @@ Function: To copy text to the clipboard
 +---------------------+------------------------------------------------+
 | Text                | The text to be copied.                         |
 +---------------------+------------------------------------------------+
-
+|
 Paste Text
 ^^^^^^^^^^
 
 |image77|
 
 Function: To paste the text in the clipboard
-
+|
 Run CMD
 ^^^^^^^
 
@@ -1310,7 +1315,7 @@ Function: To run a cmd command
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Run JS
 ^^^^^^
 
@@ -1325,7 +1330,7 @@ Function: To run a JavaScript code
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Run Python
 ^^^^^^^^^^
 
@@ -1340,7 +1345,7 @@ Function: To run a Python code
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Run R
 ^^^^^
 
@@ -1355,7 +1360,7 @@ Function: To run a R code
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Run Sikuli
 ^^^^^^^^^^
 
@@ -1368,7 +1373,7 @@ Function: To run a Sikuli code
 +---------------------+------------------------------------------------+
 | Script              | The Sikuli code to be run.                     |
 +---------------------+------------------------------------------------+
-
+|
 Set Clipboard
 ^^^^^^^^^^^^^
 
@@ -1381,10 +1386,11 @@ Function: To set a value to the clipboard
 +---------------------+------------------------------------------------+
 | Input               | The value to be set to clipboard               |
 +---------------------+------------------------------------------------+
-
+|
+|
 Miscellaneous
 ~~~~~~~~~~~~~
-
+|
 API Basic
 ^^^^^^^^^
 
@@ -1399,7 +1405,7 @@ Function: Call a web API and save the raw response.
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Custom Script
 ^^^^^^^^^^^^^
 
@@ -1412,7 +1418,7 @@ Function: To make some custom script to run in the flow.
 +---------------------+------------------------------------------------+
 | Script              | The custom script to be run.                   |
 +---------------------+------------------------------------------------+
-
+|
 For Loop
 ^^^^^^^^
 
@@ -1427,7 +1433,7 @@ Function: Used to repeat a specific action multiple times.
 +---------------------+------------------------------------------------+
 | Delimiter           | The delimiter that is used in the data array.  |
 +---------------------+------------------------------------------------+
-
+|
 Loop
 ^^^^
 
@@ -1444,7 +1450,7 @@ Function: To create a loop in the workflow
 +---------------------+------------------------------------------------+
 | Counter             | The counter to be used in the loop.            |
 +---------------------+------------------------------------------------+
-
+|
 OCR - Read From Image
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -1460,7 +1466,7 @@ Function: This action allows text extraction with the use of OCR.
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 OCR - Read Screen By Region
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1478,7 +1484,7 @@ region
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Outlook - Compose Email
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1502,7 +1508,7 @@ Function: To send an email using the outlook application
 +---------------------+------------------------------------------------+
 | Attachment File     | The file path of the attachment file.          |
 +---------------------+------------------------------------------------+
-
+|
 Read Text File
 ^^^^^^^^^^^^^^
 
@@ -1518,7 +1524,7 @@ variable.
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Set Value
 ^^^^^^^^^
 
@@ -1534,7 +1540,7 @@ variable for next use.
 +---------------------+------------------------------------------------+
 | Input               | The value of the variable.                     |
 +---------------------+------------------------------------------------+
-
+|
 Snap
 ^^^^
 
@@ -1547,7 +1553,7 @@ Function: This action is able to snap a whole screen as a picture.
 +---------------------+------------------------------------------------+
 | File Name           | The name of the file.                          |
 +---------------------+------------------------------------------------+
-
+|
 Split Text
 ^^^^^^^^^^
 
@@ -1564,7 +1570,7 @@ Function: This function can split the text with any character.
 +---------------------+------------------------------------------------+
 | Result Array        | The array to store the result                  |
 +---------------------+------------------------------------------------+
-
+|
 Substring
 ^^^^^^^^^
 
@@ -1585,7 +1591,7 @@ Function: This function is to get the substring from a line of text.
 +---------------------+------------------------------------------------+
 | Length              | The length of the substring.                   |
 +---------------------+------------------------------------------------+
-
+|
 Tesseract OCR
 ^^^^^^^^^^^^^
 
@@ -1600,7 +1606,7 @@ Function: To use Tesseract OCR
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Timestamp
 ^^^^^^^^^
 
@@ -1615,7 +1621,7 @@ Function: This action is able to generate date and time.
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Vault - Get Secret
 ^^^^^^^^^^^^^^^^^^
 
@@ -1637,7 +1643,7 @@ username and password from getting by others.
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the output.              |
 +---------------------+------------------------------------------------+
-
+|
 Wait
 ^^^^
 
@@ -1650,7 +1656,7 @@ Function: To wait before going to the next action
 +---------------------+------------------------------------------------+
 | Time in seconds     | The seconds to wait.                           |
 +---------------------+------------------------------------------------+
-
+|
 Whatsapp DD (Not included in the download)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -1667,10 +1673,11 @@ Function: To use the WhatsApp API
 +---------------------+------------------------------------------------+
 | Message             | The message to be sent.                        |
 +---------------------+------------------------------------------------+
-
+|
+|
 PDF
 ~~~
-
+|
 Print PDF - Excel
 ^^^^^^^^^^^^^^^^^
 
@@ -1689,7 +1696,7 @@ Function: To print a cell range of an excel to PDF
 +---------------------+------------------------------------------------+
 | PDF Filepath        | The file path of the generated PDF file.       |
 +---------------------+------------------------------------------------+
-
+|
 Print PDF - Word
 ^^^^^^^^^^^^^^^^
 
@@ -1704,7 +1711,7 @@ Function:
 +---------------------+------------------------------------------------+
 | PDF Filepath        | The file path of the generated PDF file.       |
 +---------------------+------------------------------------------------+
-
+|
 Read PDF
 ^^^^^^^^
 
@@ -1719,13 +1726,15 @@ Function: Read the PDF
 +---------------------+------------------------------------------------+
 | Out                 | The variable to store the data.                |
 +---------------------+------------------------------------------------+
-
+|
+|
 Run Options
 ~~~~~~~~~~~
-
+|
+|
 Showing Outputs
 ~~~~~~~~~~~~~~~
-
+|
 Echo
 ^^^^
 
@@ -1739,7 +1748,7 @@ Function: Echo text or variable that was set at previous action.
 | Text                | The variable which stores the data that need   |
 |                     | to be output to the log.                       |
 +---------------------+------------------------------------------------+
-
+|
 Echo Text
 ^^^^^^^^^
 
@@ -1753,20 +1762,22 @@ Function: Echo the text
 | Text                | The string of text that need to be output to   |
 |                     | the log.                                       |
 +---------------------+------------------------------------------------+
-
+|
+|
 Using Variable
 ~~~~~~~~~~~~~~
-
+|
+|
 Word
 ~~~~
-
+|
 Create Word Doc
 ^^^^^^^^^^^^^^^
 
 |image106|
 
 Function: Create a Word file for you.
-
+|
 Insert Text
 ^^^^^^^^^^^
 
@@ -1780,7 +1791,7 @@ Function: Insert text to Word file
 | Text                | The string of text to be insert into the       |
 |                     | opened Word file                               |
 +---------------------+------------------------------------------------+
-
+|
 Open Word
 ^^^^^^^^^
 
@@ -1793,7 +1804,7 @@ Function: Open the Word file.
 +---------------------+------------------------------------------------+
 | File Path           | The file path of the Word file.                |
 +---------------------+------------------------------------------------+
-
+|
 Read Text From Word
 ^^^^^^^^^^^^^^^^^^^
 
@@ -1806,7 +1817,7 @@ Function: Read text inside the Word file.
 +---------------------+------------------------------------------------+
 | Filepath            | File path of the Word file.                    |
 +---------------------+------------------------------------------------+
-
+|
 Replace String
 ^^^^^^^^^^^^^^
 
@@ -1821,14 +1832,14 @@ Function: Replace string inside the word.
 +---------------------+------------------------------------------------+
 | Replace With        | The string of text to replace with.            |
 +---------------------+------------------------------------------------+
-
+|
 Save Document
 ^^^^^^^^^^^^^
 
 |image111|
 
 Function: Save the document.
-
+|
 Save & Close
 ^^^^^^^^^^^^
 
@@ -1844,10 +1855,11 @@ Function: Save the document and close it.
 | Overwrite           | An option to overwrite any existing file with  |
 |                     | the same name.                                 |
 +---------------------+------------------------------------------------+
-
+|
+|
 Conditions
 ~~~~~~~~~~
-
+|
 Ifelse
 ^^^^^^
 
@@ -1860,10 +1872,11 @@ Function: If not then else
 +---------------------+------------------------------------------------+
 | Condition           | The condition for the if-else.                 |
 +---------------------+------------------------------------------------+
-
+|
+|
 Database
 ~~~~~~~~
-
+|
 Select From Database
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -1888,10 +1901,11 @@ Function: Select from database table
 +---------------------+------------------------------------------------+
 | Output Variable     | Output to display select query.                |
 +---------------------+------------------------------------------------+
-
+|
+|
 Terminal
 ~~~~~~~~
-
+|
 Capture Screen
 ^^^^^^^^^^^^^^
 
@@ -1904,7 +1918,7 @@ Function:
 +---------------------+------------------------------------------------+
 | Path                |                                                |
 +---------------------+------------------------------------------------+
-
+|
 Connect
 ^^^^^^^
 
@@ -1929,14 +1943,14 @@ Function:
 +---------------------+------------------------------------------------+
 | Path                |                                                |
 +---------------------+------------------------------------------------+
-
+|
 Disconnect
 ^^^^^^^^^^
 
 |image117|
 
 Function:
-
+|
 Login
 ^^^^^
 
@@ -1951,7 +1965,7 @@ Function:
 +---------------------+------------------------------------------------+
 | Password            |                                                |
 +---------------------+------------------------------------------------+
-
+|
 Send Key
 ^^^^^^^^
 
@@ -1964,7 +1978,7 @@ Function:
 +---------------------+------------------------------------------------+
 | Key                 |                                                |
 +---------------------+------------------------------------------------+
-
+|
 Send Text
 ^^^^^^^^^
 
@@ -1977,7 +1991,7 @@ Function:
 +---------------------+------------------------------------------------+
 | InputText           |                                                |
 +---------------------+------------------------------------------------+
-
+|
 Terminal PUB400
 ^^^^^^^^^^^^^^^
 
@@ -1998,10 +2012,10 @@ Function:
 +---------------------+------------------------------------------------+
 | OutputFIlename      |                                                |
 +---------------------+------------------------------------------------+
-
+|
 Collections
 ~~~~~~~~~~~
-
+|
 Create List
 ^^^^^^^^^^^
 
@@ -2016,7 +2030,7 @@ Function: To create a list of data
 +---------------------+------------------------------------------------+
 | Data                | The data to store in the list                  |
 +---------------------+------------------------------------------------+
-
+|
 Loop From To
 ^^^^^^^^^^^^
 
@@ -2033,7 +2047,7 @@ Function: To create a loop
 +---------------------+------------------------------------------------+
 | Iterator            |                                                |
 +---------------------+------------------------------------------------+
-
+|
 Loop Sub - Click On Element
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -2048,7 +2062,7 @@ Function: Click on XPATH
 +---------------------+------------------------------------------------+
 | XPATH               | XPATH to click.                                |
 +---------------------+------------------------------------------------+
-
+|
 Loop Sub - Type On Element
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -2063,15 +2077,14 @@ Function: Type array to web element
 +---------------------+------------------------------------------------+
 | Text                | Text to type on XPATH.                         |
 +---------------------+------------------------------------------------+
-
-.. _section-1:
-
+|
+|
 Central
 =======
 
 After you have started your bot go to this website
 (https://centralapps.azurewebsites.net/login).
-
+|
 Login Page
 ----------
 
@@ -2090,7 +2103,7 @@ Key in your username and password then press login.
 | 4. | Forgot       | Redirect you to change your password.            |
 |    | Password     |                                                  |
 +----+--------------+--------------------------------------------------+
-
+|
 Home Page
 ---------
 
@@ -2124,7 +2137,7 @@ what the status of the bot runs on one day.
 |       | A       | on the Agents page.                               |
 |       | ctivity |                                                   |
 +-------+---------+---------------------------------------------------+
-
+|
 Dashboard Page
 --------------
 
@@ -2171,7 +2184,7 @@ This page lets you see what tasks are the tasks that run on each bot.
 |    |                |                                               |
 |    |                | Download the report as CSV format.            |
 +----+----------------+-----------------------------------------------+
-
+|
 Agents Page
 -----------
 
@@ -2213,15 +2226,15 @@ This page is the page to schedule your jobs.
 | 6. | More    | After clicking the more button, it will have a pop up |
 |    |         | that shows your agent’s details.                      |
 +----+---------+-------------------------------------------------------+
-
+|
 **More Pop up**
 
 |image130|
 
+.. _section-1:
+
 .. _section-2:
-
-.. _section-3:
-
+|
 User Management > Users
 -----------------------
 
@@ -2242,19 +2255,19 @@ This page is all the users that are registered to the central.
 
 **
 **
-
+|
 **Add New User Pop Up**
 
 |image132|
-
+|
 **Edit User Pop Up**
 
 |image133|
-
+|
 **Change Password Pop Up**
 
 |image134|
-
+|
 User Management > Roles
 -----------------------
 
@@ -2272,11 +2285,11 @@ This page is to create and edit user roles.
 | 3 | Access Group       | Assign what access group that the role can |
 | . |                    | access.                                    |
 +---+--------------------+--------------------------------------------+
-
+|
 **Access Group Pop Up**
 
 |image136|
-
+|
 User Management > Access Group
 ------------------------------
 
@@ -2296,7 +2309,7 @@ page.
 |    |                    | groups to let the users of the access      |
 |    |                    | group only can access those pages.         |
 +----+--------------------+--------------------------------------------+
-
+|
 Setup > Public Holiday
 ----------------------
 
@@ -2315,7 +2328,7 @@ a public holiday.\ |image138|
 +----+---------------+------------------------------------------------+
 | 3. | Delete        | Delete the public holiday you have set.        |
 +----+---------------+------------------------------------------------+
-
+|
 Setup > Mailing List
 --------------------
 
@@ -2339,8 +2352,8 @@ This page is to set a group to put a list of emails.\ |image139|
 | 4.  | Delete            | Delete the unwanted mailing list.         |
 +-----+-------------------+-------------------------------------------+
 
-.. _section-4:
-
+.. _section-3:
+|
 Show Details
 ~~~~~~~~~~~~
 
@@ -2362,8 +2375,8 @@ sent to.
 |    |             | message to send to.                              |
 +----+-------------+--------------------------------------------------+
 
-.. _section-5:
-
+.. _section-4:
+|
 Secret Vault
 ------------
 
@@ -2382,7 +2395,7 @@ action will get what secret set on this page.
 +----+------------------+----------------------------------------------+
 | 3. | Delete secret    | Delete the unwanted secret.                  |
 +----+------------------+----------------------------------------------+
-
+|
 Reporting page
 --------------
 
@@ -2408,10 +2421,10 @@ This page is to generate reports of different parts.
 |     |         | Jobs reports.                                       |
 +-----+---------+-----------------------------------------------------+
 
+.. _section-5:
+
 .. _section-6:
-
-.. _section-7:
-
+|
 My License page
 ---------------
 
@@ -2422,51 +2435,47 @@ This page is to review the central details.
 You are able to review the company name, license expiry date, tenant
 code and central version. Other than that, you are also able to review
 all the users license status.
-
+|
+|
 Bot
 ===
-
+|
 1. Double click “ddbot.exe” which is located in the folder
    “C:\\DDRPA\\BOT\\app”. An icon will appear in the hidden icon tray.
-
-..
-
    |image144|
-
+|
 2. Double click “RPAAgentManager.WorkerService.exe” which is located in
    the folder “C:\\DDRPA\\BOT\\app\\ddbotmanager\\”. A command prompt
    will appear, minimize it.
-
+|
 3. In Central, the bot status should become “Idle”.
-
-..
-
    |image145|
-
+|
+|
 Additional Functions
 --------------------
 
    |image146|
 
 1. About: This is just showing you the bot’s details.\ |image147|
-
+|
 2. Documentation: Redirect you to the DotDash Technologies website.
-
+|
 3. Support: You will see a pop up message showing you the support
    details.\ |image148|
-
+|
 4. Cancel All Job: If your job results are showing you the job is in
    queue and the job does not start, there might be any hidden job not
    completely run but you are not able to see it, you can just click
    this cancel all jobs to cancel all the jobs that are stuck.
-
+|
 5. Stop Apps: Stop the bot and you will see the pop up message. You can
    just leave it until it auto closes.
 
 ..
 
    |image149|
-
+|
 6. Kill: Kill is to kill the bot and close the bot, it will close the
    bot and not pop up a message.
 
