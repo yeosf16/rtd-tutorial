@@ -7,4 +7,4 @@ Contents
 
 .. toctree::
 
-   DDRPAUserGuideTest
+   DDRPA_User_Guide
