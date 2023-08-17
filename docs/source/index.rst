@@ -8,3 +8,4 @@ Contents
 .. toctree::
 
    DDRPA_User_Guide
+   DDRPA_FAQ
