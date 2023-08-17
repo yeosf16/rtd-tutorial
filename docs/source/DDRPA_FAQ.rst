@@ -1,3 +1,6 @@
+Frequently Asked Questions (FAQ)
+================================
+
 1. Excel functions cannot work?
 
 ..
@@ -81,7 +84,7 @@
    problem.
 
 Section - Getting Xpath
-=======================
+-----------------------
 
 Step 1: For this case, I will click on the search bar.
 
