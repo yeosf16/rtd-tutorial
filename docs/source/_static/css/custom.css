@@ -1,0 +1,17 @@
+@import 'theme.css';
+
+.wy-nav-side{
+    background: #a1a0a0c2;
+}
+
+.wy-side-nav-search{
+    background: #eaaa38;
+}
+
+.wy-menu-vertical a{
+    color: black;
+}
+
+.wy-menu-vertical a:hover{
+    color: white;
+}
