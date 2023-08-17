@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'RTD Test'
+copyright = '2021, Yeo'
+author = 'Yeo'
 
 release = '0.1'
 version = '0.1.0'
