@@ -47,14 +47,14 @@ shown below.
 |image172|
 
 1. **About**: This is just showing you the bot’s details.
-|
+
 ..
    |image173|
 
 2. **Documentation**: Redirect you to the DotDash Technologies website.
 
 3. **Support**: You will see a pop-up message showing you the support details.
-|
+
 ..
    |image174|
 
