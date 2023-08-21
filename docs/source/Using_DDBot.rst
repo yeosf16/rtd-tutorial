@@ -46,12 +46,17 @@ shown below.
 
 |image172|
 
-1. **About**: This is just showing you the bot’s details.\ |image173|
+1. **About**: This is just showing you the bot’s details.
+
+..
+   |image173|
 
 2. **Documentation**: Redirect you to the DotDash Technologies website.
 
-3. **Support**: You will see a pop-up message showing you the support
-   details.\ |image174|
+3. **Support**: You will see a pop-up message showing you the support details.
+
+..
+   |image174|
 
 4. **Cancel All Job**: If your job results are showing you the job is in
    queue and the job does not start, there might be any hidden job not
