@@ -47,7 +47,7 @@ shown below.
 |image172|
 
 1. **About**: This is just showing you the bot’s details.
-
+|
 ..
    |image173|
 
