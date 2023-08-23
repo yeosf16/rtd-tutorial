@@ -18,3 +18,4 @@ Contents
    Using_DDBot
    Integrations
    Utilities
+   DDRPA_FAQ
