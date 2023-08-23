@@ -94,7 +94,7 @@ Frequently Asked Questions (FAQ)
    https://www.microsoft.com/en-US/download/details.aspx?id=30679
 
 Section - Getting Xpath
-=======================
+-----------------------
 
 Step 1: For this case, I will click on the search bar.
 
